@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Nix</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>NIX</h1>
+        <h2>Iniciar sesión</h2>
+
+        <form id="loginForm">
+
+            <label>Usuario</label>
+            <input
+                type="email"
+                id="usuario"
+                placeholder="Ingresa tu correo"
+                required
+            >
+
+            <label>Contraseña</label>
+            <input
+                type="password"
+                id="contrasena"
+                placeholder="Ingresa tu contraseña"
+                required
+            >
+
+            <button type="submit">Enviar</button>
+
+            <p id="mensaje"></p>
+
+        </form>
+
+    </div>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
